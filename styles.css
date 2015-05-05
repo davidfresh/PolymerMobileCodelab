@@ -49,3 +49,6 @@ paper-fab {
   padding: 1em;
   position: relative;
 }
+*[data-fade-selected="true"] .item[data-done="true"] {
+  opacity: 0.3;
+}
